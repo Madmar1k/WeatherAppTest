@@ -15,7 +15,7 @@ final class APIRouter: NSObject {
     private override init() { }
     
     // set API key
-    fileprivate let apixuKey = "93479c6634be462ea2e95936170811"
+    fileprivate let apixuKey = "your_key"
     
     //MARK: - Main function to get current weather, forecast or history
     func getWeather(for parameters: [String: Any], apiMethod: APIMethod, completion: @escaping (Result<ApixuWeatherModel>) -> Void) {
